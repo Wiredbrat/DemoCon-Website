@@ -25,7 +25,7 @@ function PageTitle({pageNameColored, pageText, pageNameUncolored, bgImage}) {
         initial="hidden"
         animate={controls}
         variants={cardVariants}
-        className={`h-46 shadow mb-12 bg-[url('../assets/background.jpg')] bg-cover bg-center bg-origin-border w-full text-2xl lg:text-4xl font-semibold`}
+        className={`h-46 shadow mb-12 bg-[url('/assets/background.jpg')] bg-cover bg-center bg-origin-border w-full text-2xl lg:text-4xl font-semibold`}
       >
         <div className='h-46 w-full bg-[#0000004d] flex flex-col items-center justify-center '>
         <p className='text-base font-normal text-white'>{pageText}</p>

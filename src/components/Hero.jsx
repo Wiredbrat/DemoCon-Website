@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className='max-h-[80vh] h-[67vh] lg:h-[68vh] xl:h-[65vh] 2xl:h-[57vh] overflow-clip w-full flex justify-center items-center'>
       <video 
-      src="../assets/ocean.mp4" 
+      src="/assets/ocean.mp4" 
       autoPlay={true} 
       loop={true} 
       muted={true}

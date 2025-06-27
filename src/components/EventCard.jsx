@@ -14,7 +14,7 @@ export default function EventCard() {
       >
         
        <img
-          src="../assets/novotel3.jpg"
+          src="/assets/novotel3.jpg"
           alt="Attendee 1"
           className="rounded-lg shadow-md object-cover w-full h-fit"
         />

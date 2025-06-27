@@ -13,7 +13,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/3.png'}
+        image={'/assets/3.png'}
       />
 
       <AnimatedCard
@@ -24,7 +24,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/1.png'}
+        image={'/assets/1.png'}
       />
 
       <AnimatedCard
@@ -35,7 +35,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/2.png'}
+        image={'/assets/2.png'}
       />
 
 
@@ -47,7 +47,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/13.png'}
+        image={'/assets/13.png'}
       />
 
       <AnimatedCard
@@ -58,7 +58,7 @@ function Travel() {
            </p>
         }
         reverse
-        image={'../assets/14.png'}
+        image={'/assets/14.png'}
       />
 
       <AnimatedCard
@@ -69,7 +69,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/12.png'}
+        image={'/assets/12.png'}
       />
 
       <AnimatedCard
@@ -80,7 +80,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/10.png'}
+        image={'/assets/10.png'}
       />
 
       <AnimatedCard
@@ -91,7 +91,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/9.png'}
+        image={'/assets/9.png'}
       />
 
       <AnimatedCard
@@ -102,7 +102,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/8.png'}
+        image={'/assets/8.png'}
       />
 
       <AnimatedCard
@@ -113,7 +113,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/15.png'}
+        image={'/assets/15.png'}
       />
 
       <AnimatedCard
@@ -124,7 +124,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/6.png'}
+        image={'/assets/6.png'}
       />
 
       <AnimatedCard
@@ -135,7 +135,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/7.png'}
+        image={'/assets/7.png'}
       />
 
       <AnimatedCard
@@ -146,7 +146,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/16.png'}
+        image={'/assets/16.png'}
       />
 
       <AnimatedCard
@@ -157,7 +157,7 @@ function Travel() {
           </p>
         }
         
-        image={'../assets/17.png'}
+        image={'/assets/17.png'}
       />
 
       <AnimatedCard
@@ -168,7 +168,7 @@ function Travel() {
           </p>
         }
         reverse
-        image={'../assets/11.png'}
+        image={'/assets/11.png'}
       />
       </div>
     </>

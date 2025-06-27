@@ -50,7 +50,7 @@ function Header() {
         <div className='text-white font-semibold text-sm w-[95%] mx-auto flex justify-between items-center py-1'>
           <span>
             <Link to={'/'}>
-              <img src="../assets/NNF-Logo.png" className='h-16'/>
+              <img src="/assets/NNF-Logo.png" className='h-16'/>
             </Link>
           </span>
           <ul className='hidden lg:flex justify-center gap-x-5'>
@@ -106,8 +106,8 @@ function Header() {
         <div className={`${mobileMenu ? 'left-0' : 'left-[-100%]'} fixed top-0 bottom-0 w-[100%] bg-red-400 z-50 transition-all duration-300 ease-in-out p-4 lg:hidden overflow-auto`}>
           <div className='fixed top-0 pt-5 pb-3 bg-red-400 w-[95%] overflow-hidden h-fit '>
           <span className='inline-flex gap-1 '>
-            <img src="../assets/NNF-Logo.png" className='h-12 border-e-2 pe-1 border-gray-600'/>
-            <img src="../assets/NEOCON-Logo.png" className='h-12'/>
+            <img src="/assets/NNF-Logo.png" className='h-12 border-e-2 pe-1 border-gray-600'/>
+            <img src="/assets/NEOCON-Logo.png" className='h-12'/>
           </span>
           </div>
           <ul className='justify-center text-2xl mt-20 mb-4 overflow-hidden'>
