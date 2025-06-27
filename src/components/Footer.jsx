@@ -64,7 +64,7 @@ const Footer = () => {
             </a>
            </div>
             <Link to={`https://chime.travel/`}>
-              <img src="src/assets/chime-logo.png" alt="chime logo" className="h-12 md:h-16 mt-4" />
+              <img src="../assets/chime-logo.png" alt="chime logo" className="h-12 md:h-16 mt-4" />
             </Link>
           </div>
         </div>

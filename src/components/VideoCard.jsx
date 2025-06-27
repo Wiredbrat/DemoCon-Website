@@ -32,7 +32,7 @@ export default function VideoCard() {
           loop
           muted
           className="w-full object-cover lg:h-[500px] opacity-70 object-center"
-          src="src/assets/vizag.mp4"
+          src="../assets/vizag.mp4"
         ></video>
         
         <div className="absolute top-0 w-full h-full z-10 flex flex-col items-center justify-center text-center px-4 bg-[#000000b1]">

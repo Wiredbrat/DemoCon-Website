@@ -14,7 +14,7 @@ function HostCity() {
 
         {/* Hero Image */}
         <motion.img
-          src="src/assets/vizag1.jpg"
+          src="../assets/vizag1.jpg"
           alt="Vizag Sea View"
           className="rounded-2xl mb-6 w-full object-cover h-80"
           initial={{ opacity: 0, scale: 0.95 }}
@@ -28,7 +28,7 @@ function HostCity() {
         <div className="space-y-20">
           <AnimatedCard
             title="Cultural & Spiritual Highlights"
-            image="src/assets/vizag3.jpg"
+            image="../assets/vizag3.jpg"
             content={
               <>
                 <p><strong>Ross Hill:</strong> A unique spiritual landmark representing Hindu, Muslim, and Christian faiths.</p>
@@ -41,7 +41,7 @@ function HostCity() {
 
           <AnimatedCard
             title="Beaches & Leisure"
-            image="src/assets/vizag4.jpg"
+            image="../assets/vizag4.jpg"
             reverse
             content={
               <>
@@ -54,7 +54,7 @@ function HostCity() {
 
           <AnimatedCard
             title="Heritage & History"
-            image="src/assets/vizag5.jpg"
+            image="../assets/vizag5.jpg"
             content={
               <>
                 <p><strong>Submarine Museum (INS Kursura):</strong> Asia’s first submarine museum.</p>
@@ -66,7 +66,7 @@ function HostCity() {
 
           <AnimatedCard
             title="Eco & Adventure Tourism"
-            image="src/assets/vizag6.jpg"
+            image="../assets/vizag6.jpg"
             reverse
             content={
               <>
@@ -79,7 +79,7 @@ function HostCity() {
 
           <AnimatedCard
             title="Industry & Infrastructure"
-            image="src/assets/vizag7.jpg"
+            image="../assets/vizag7.jpg"
             content={
               <>
                 <p><strong>INS Kursura:</strong> A major tourism magnet.</p>
@@ -91,7 +91,7 @@ function HostCity() {
 
           <AnimatedCard
             title="Weather in December"
-            image="src/assets/vizag8.jpg"
+            image="../assets/vizag8.jpg"
             reverse
             content={
               <>

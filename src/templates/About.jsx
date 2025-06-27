@@ -8,7 +8,7 @@ function About() {
       <PageTitle pageText={`Know More About`} pageNameColored={`National Neonatology Forum`} pageNameUncolored={`(NNF)`} />
       <div className='max-w-6xl mx-auto px-4 py-1 overflow-hidden'>
         <motion.img
-          src="src/assets/about.jpg"
+          src="../assets/about.jpg"
           alt="Vizag Sea View"
           className="rounded-2xl mb-6 w-full object-cover bg-center h-80"
           initial={{ opacity: 0, scale: 0.95 }}
@@ -40,7 +40,7 @@ function About() {
           className={` rounded-2xl flex flex-col md:flex-row items-center gap-6 mb-16 lg:bg-amber-50`}
         >
           <img
-            src={`src/assets/logo2.png`}
+            src={`../assets/logo2.png`}
             alt={``}
             className="object-contain w-full md:w-fit rounded-xl shadow-md h-56 md:h-80"
           />
@@ -78,7 +78,7 @@ function About() {
           className='pb-4 flex flex-col md:flex-row gap-4 '
         >
           <img 
-            src={`src/assets/about3.jpg`}
+            src={`../assets/about3.jpg`}
             alt={``}
             className="object-cover md:order-2 w-full md:w-fit rounded-xl shadow-md h-64 md:h-[400px]"
           />

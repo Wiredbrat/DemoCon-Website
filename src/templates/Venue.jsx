@@ -14,7 +14,7 @@ function Venue() {
 
         {/* Hero Image */}
         <motion.img
-          src="src/assets/hotels/novotel1.jpg"
+          src="../assets/hotels/novotel1.jpg"
           alt="Vizag Sea View"
           className="rounded-2xl mb-6 w-full object-cover h-80"
           initial={{ opacity: 0, scale: 0.95 }}
@@ -41,7 +41,7 @@ function Venue() {
           <div>
 
             <motion.img
-              src="src/assets/hotels/novotel-pool.png"
+              src="../assets/hotels/novotel-pool.png"
               alt="Vizag Sea View"
               className="rounded-2xl mb-3 w-full object-cover md:h-80 hover:scale-[1.01] duration-300"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -55,7 +55,7 @@ function Venue() {
 
           <div>
             <motion.img
-              src="src/assets/hotels/novotel-lawn.png"
+              src="../assets/hotels/novotel-lawn.png"
               alt="Vizag Sea View"
               className="rounded-2xl mb-3 w-full object-cover md:h-80 hover:scale-[1.01] duration-300"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -69,7 +69,7 @@ function Venue() {
         </div>
         <div>
           <motion.img
-              src="src/assets/hotels/novotel-hall.jpg"
+              src="../assets/hotels/novotel-hall.jpg"
               alt="Vizag Sea View"
               className="rounded-2xl my-3 w-full object-cover md:h-80 "
               initial={{ opacity: 0, scale: 0.95 }}

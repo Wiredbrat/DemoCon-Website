@@ -6,7 +6,7 @@ const hotels = [
     id: 1,
     name: "Novotel Visakhapatnam Varun Beach",
     stars: 5,
-    images: ["src/assets/hotels/novotel1.jpg", "src/assets/hotels/novotel2.jpg"],
+    images: ["../assets/hotels/novotel1.jpg", "../assets/hotels/novotel2.jpg"],
     distance: {
       venue: "0 Kms",
       airport: "13.6 Kms",
@@ -19,7 +19,7 @@ const hotels = [
     id: 2,
     name: "Welcomhotel By ITC Hotels, Devee Grand Bay, Visakhapatnam",
     stars: 4,
-    images: ["src/assets/hotels/ITC1.jpg", "src/assets/hotels/ITC02.jpg"],
+    images: ["../assets/hotels/ITC1.jpg", "../assets/hotels/ITC02.jpg"],
     distance: {
       venue: "230 M",
       airport: "13.4 Kms",
@@ -32,7 +32,7 @@ const hotels = [
     id: 3,
     name: "Hotel The Park, Visakhapatnam",
     stars: 4,
-    images: ["src/assets/hotels/Hotel_The_Park01.jpg", "src/assets/hotels/Hotel_The_Park02.jpg"],
+    images: ["../assets/hotels/Hotel_The_Park01.jpg", "../assets/hotels/Hotel_The_Park02.jpg"],
     distance: {
       venue: "430 M",
       airport: "15.2 Kms",
@@ -45,7 +45,7 @@ const hotels = [
     id: 4,
     name: "Hotel Four Points by Sheraton, Visakhapatnam",
     stars: 4,
-    images: ["src/assets/hotels/Sheraton01.jpg", "src/assets/hotels/Sheraton02.jpg"],
+    images: ["../assets/hotels/Sheraton01.jpg", "../assets/hotels/Sheraton02.jpg"],
     distance: {
       venue: "1.2 Kms",
       airport: "12.7 Kms",
@@ -58,7 +58,7 @@ const hotels = [
     id: 5,
     name: "Dolphin Hotel, Visakhapatnam",
     stars: 4,
-    images: ["src/assets/hotels/Dolphin03.jpg", "src/assets/hotels/Dolphin02.jpg"],
+    images: ["../assets/hotels/Dolphin03.jpg", "../assets/hotels/Dolphin02.jpg"],
     distance: {
       venue: "2.6 Kms",
       airport: "15.5 Kms",

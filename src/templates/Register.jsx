@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 function Register() {
   return (
     <div className=' h-screen gap-4 w-full flex-col bg-linear-to-br from-blue-900 to-purple-600 flex justify-center items-center'>
-      <img src="src/assets/NEOCON-Logo-1.png" alt="Neo Con logo" className='h-16 md:h-20 '/>
+      <img src="../assets/NEOCON-Logo-1.png" alt="Neo Con logo" className='h-16 md:h-20 '/>
       <div className='px-4'>
         <AuthCard/>
       </div>

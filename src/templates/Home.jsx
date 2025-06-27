@@ -35,11 +35,11 @@ Warm regards,`;
       </div>
         <PersonCard 
           speakers={[
-            { name: "Dr. V.V.G. Mohan", role: "Organizing Chairman", image: "src/assets/organisers/8.jpeg" },
-            { name: "Dr. K. Seshagiri", role: "Organizing Secretary", image: "src/assets/organisers/9.jpg" },
-            { name: "Dr. S. Ramprasad", role: "Organizing Secretary", image: "src/assets/organisers/10.jpeg" },
-            { name: "Dr. J. Muni Sekhar", role: "Organizing Treasurer", image: "src/assets/organisers/11.jpeg" },
-            { name: "Dr. P. Sateesh Kumar", role: "Joint. Organizing Secretary", image: "src/assets/organisers/7.jpeg" },
+            { name: "Dr. V.V.G. Mohan", role: "Organizing Chairman", image: "../assets/organisers/8.jpeg" },
+            { name: "Dr. K. Seshagiri", role: "Organizing Secretary", image: "../assets/organisers/9.jpg" },
+            { name: "Dr. S. Ramprasad", role: "Organizing Secretary", image: "../assets/organisers/10.jpeg" },
+            { name: "Dr. J. Muni Sekhar", role: "Organizing Treasurer", image: "../assets/organisers/11.jpeg" },
+            { name: "Dr. P. Sateesh Kumar", role: "Joint. Organizing Secretary", image: "../assets/organisers/7.jpeg" },
           ]}
           colorTitle={`Organisers`}
           unColorTitle={`Our`}
@@ -48,11 +48,11 @@ Warm regards,`;
         <VideoCard/>
         <PersonCard
           speakers={[
-            { name: "Prof. Satyan Lakshminrusimha", role: "USA", image: "src/assets/organisers/1.jpg" },
-            { name: "Prof. Corrado Moretti", role: "Italy - President(UENPS)", image: "src/assets/organisers/2.jpg" },
-            { name: "Prof. Joseph Neu", role: "USA", image: "src/assets/organisers/3.jpg" },
-            { name: "Prof. Peter Davis", role: "Australia", image: "src/assets/organisers/4.jpeg" },
-            { name: "Prof. V. Samuel Rajadurai", role: "Singapore", image: "src/assets/organisers/5.jpeg" },
+            { name: "Prof. Satyan Lakshminrusimha", role: "USA", image: "../assets/organisers/1.jpg" },
+            { name: "Prof. Corrado Moretti", role: "Italy - President(UENPS)", image: "../assets/organisers/2.jpg" },
+            { name: "Prof. Joseph Neu", role: "USA", image: "../assets/organisers/3.jpg" },
+            { name: "Prof. Peter Davis", role: "Australia", image: "../assets/organisers/4.jpeg" },
+            { name: "Prof. V. Samuel Rajadurai", role: "Singapore", image: "../assets/organisers/5.jpeg" },
           ]}
           unColorTitle ={`International`} 
           colorTitle={`Faculties`}

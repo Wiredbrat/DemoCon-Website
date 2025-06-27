@@ -4,22 +4,22 @@ import { Link } from "react-router";
 
 const imagesUp = [
   // Replace these URLs with actual image URLs or import your assets
-  "src/assets/1.png",
-  "src/assets/2.png",
-  "src/assets/3.png",
-  "src/assets/4.png",
-  "src/assets/5.png",
-  "src/assets/6.png",
+  "../assets/1.png",
+  "../assets/2.png",
+  "../assets/3.png",
+  "../assets/4.png",
+  "../assets/5.png",
+  "../assets/6.png",
 ];
 
 const imagesDown = [
   // Replace these URLs with actual image URLs or import your assets
-  "src/assets/7.png",
-  "src/assets/8.png",
-  "src/assets/9.png",
-  "src/assets/10.png",
-  "src/assets/11.png",
-  "src/assets/12.png",
+  "../assets/7.png",
+  "../assets/8.png",
+  "../assets/9.png",
+  "../assets/10.png",
+  "../assets/11.png",
+  "../assets/12.png",
 ];
 
 const MarqueeCards= () => {

@@ -20,7 +20,7 @@ function Contact() {
           className="grid md:grid-cols-2 gap-6 mb-12"
         >
           <div>
-            <img src="src/assets/novotel.webp" alt="Novotel" className="rounded-lg shadow-md w-full h-auto" />
+            <img src="../assets/novotel.webp" alt="Novotel" className="rounded-lg shadow-md w-full h-auto" />
           </div>
           <div className="bg-blue-900 text-white rounded-xl p-6 shadow-lg">
             <h3 className="text-xl font-semibold mb-4">Conference Secretariat</h3>
@@ -60,7 +60,7 @@ function Contact() {
           className="bg-[#DF2A1B] text-white rounded-xl p-6 mb-3 shadow-lg"
         >
           <h3 className=" font-semibold mb-4 text-2xl">Professional Conference Organiser - CHIME</h3>
-          <img src="src/assets/chime-logo.png" alt="" className='mb-4 h-12 md:h-20' />
+          <img src="../assets/chime-logo.png" alt="" className='mb-4 h-12 md:h-20' />
           <p className="mb-2 font-semibold text-amber-300 text-xl">Mr. Chander Mohan Thakur – General Manager</p>
           <p className="mb-4">
             <i className='fa fa-envelope'></i> chander@chime.travel
