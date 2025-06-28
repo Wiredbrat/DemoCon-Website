@@ -46,8 +46,8 @@ function Header() {
 
   return (
     <>  
-      <header className={` ${sticky && 'fixed h-18 bg-linear-to-r to-cyan-500 from-blue-500 shadow-md ' } z-[9999] absolute top-0 max-w-7xl w-full justify-center lg:left-1/2 lg:-translate-x-1/2 `}>
-        <div className='text-white font-semibold text-sm w-[95%] mx-auto flex justify-between items-center py-1'>
+      <header className={` ${sticky && 'fixed h-18 bg-linear-to-r to-cyan-500 from-blue-500 shadow-md ' } z-[9999] absolute top-0 w-full justify-center lg:left-1/2 lg:-translate-x-1/2 `}>
+        <div className='max-w-7xl text-white font-semibold text-sm w-[95%] mx-auto flex justify-between items-center py-1'>
           <span>
             <Link to={'/'}>
               <img src="/assets/NNF-Logo.png" className='h-16'/>
