@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; Designed by <Link to={''} className="text-white">WiredBrat</Link></p>
+          <p>&copy; Designed by <Link to={''} className="text-white hover:text-blue-500 duration-300">WiredBrat</Link></p>
         </div>
       </div>
     </footer>
