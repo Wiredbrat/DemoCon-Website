@@ -46,11 +46,11 @@ function Header() {
 
   return (
     <>  
-      <header className={` ${sticky && 'fixed h-18 bg-linear-to-r to-cyan-500 from-blue-500 shadow-md ' } z-[9999] absolute top-0 w-full justify-center lg:left-1/2 lg:-translate-x-1/2 `}>
-        <div className='max-w-7xl text-white font-semibold text-sm w-[95%] mx-auto flex justify-between items-center py-1'>
+      <header className={` ${sticky && 'fixed lg:py-1 bg-linear-to-r to-cyan-500 from-blue-500 shadow-md ' } z-[9999] absolute top-0 w-full justify-center lg:left-1/2 lg:-translate-x-1/2 `}>
+        <div className='max-w-7xl text-white font-semibold text-sm w-[95%] mx-auto flex justify-between items-center py-1 lg:py-2'>
           <span>
             <Link to={'/'}>
-              <img src="/assets/NNF-Logo.png" className='h-16'/>
+              <img src="/assets/NEOCON-Logo.png" className='h-8'/>
             </Link>
           </span>
           <ul className='hidden lg:flex justify-center gap-x-5'>
