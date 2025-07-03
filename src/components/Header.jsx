@@ -104,7 +104,7 @@ function Header() {
 
         {/* Mobile Menu  */}
         <div className={`${mobileMenu ? 'left-0' : 'left-[-100%]'} fixed top-0 bottom-0 w-[100%] bg-red-400 z-50 transition-all duration-300 ease-in-out p-4 lg:hidden overflow-auto`}>
-          <div className='fixed top-0 pt-5 pb-3 bg-red-400 w-[95%] overflow-hidden h-fit '>
+          <div className='fixed top-0 pt-5 pb-3 bg-red-400 w-[95%] overflow-hidden h-fit z-1'>
           <span className='inline-flex gap-1 '>
             <img src="/assets/NNF-Logo.png" className='h-12 border-e-2 pe-1 border-gray-600'/>
             <img src="/assets/NEOCON-Logo.png" className='h-12'/>
@@ -117,7 +117,7 @@ function Header() {
             
             <li className={`group text-white hover:translate-x-1 hover:shadow ease-in-out duration-300 hover:bg-red-300 py-1 px-3 hover:cursor-pointer `} onClick={toggleDropdown}>
               <span className='pe-2'>About Us</span> 
-              <i className={`fas fa-chevron-down text-white text-xl ${dropdownMenu ? 'rotate-180': 'rotate-0'} duration-300 z-0`}></i>
+              <i className={`fas fa-chevron-down text-white text-xl ${dropdownMenu ? 'rotate-180': 'rotate-0'} duration-300 `}></i>
             </li>
 
             <ul style={{interpolateSize:"allow-keywords"}} 
@@ -154,7 +154,7 @@ function Header() {
             </NavLink>
 
           </ul> 
-          <Link to={`/login`} className='"text-xl bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition select-none'>
+          <Link to={`/login`} className='text-xl bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition select-none'>
             Register Now
           </Link>
         </div>
