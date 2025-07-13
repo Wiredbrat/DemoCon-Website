@@ -19,7 +19,7 @@ function PageTitle({pageNameColored, pageText, pageNameUncolored, bgImage}) {
   };
   return (
     <div>
-      <div className='h-18 bg-linear-to-r to-cyan-500 from-blue-500 shadow '></div>
+      <div className='h-16 bg-linear-to-r to-cyan-500 from-blue-500 shadow '></div>
       <motion.div
         ref={ref}
         initial="hidden"
