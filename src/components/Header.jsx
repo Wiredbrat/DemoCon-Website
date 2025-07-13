@@ -73,7 +73,7 @@ function Header() {
                 <NavLink to={'/host-city'} className={({isActive}) => ` ${isActive? 'text-red-400': 'text-black'} `}>
                   <li className='px-4 py-2 hover:bg-gray-200 cursor-pointer'>Host City Vizag</li>
                 </NavLink>
-                <NavLink to={'/travel-vizag'}>
+                <NavLink to={'/travel-vizag'} className={({isActive}) => ` ${isActive? 'text-red-400': 'text-black'} `}>
                   <li className='px-4 py-2 hover:bg-gray-200 cursor-pointer'>Places to Visit</li>
                 </NavLink>
               </ul>
